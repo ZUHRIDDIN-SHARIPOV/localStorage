@@ -1,0 +1,104 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  display: none;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.hero__block {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.editBtn {
+  border: none;
+  padding: 7px 15px;
+  color: white;
+  background-color: #2ecc71;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.deleteBtn {
+  border: none;
+  padding: 7px 15px;
+  color: white;
+  background-color: red;
+  border-radius: 7px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+li {
+  margin-top: 23px;
+  margin-left: -30px;
+}
+li:nth-child(1) {
+  margin-top: 55px;
+}
+footer {
+  position: fixed;
+  bottom: 55px;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+}
+@media only screen and (max-width: 450px) {
+  li:nth-child(1) {
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .btn {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 347.5px) {
+  li:nth-child(1) {
+    margin-top: 30px;
+  }
+}

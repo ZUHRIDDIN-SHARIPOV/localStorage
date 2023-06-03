@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__block">
+            <form class="hero__form">
+              <label
+                >Name:
+                <input
+                  type="text"
+                  class="hero__name-input"
+                  autocomplete="off"
+                  required /> </label
+              ><br /><br />
+              <label
+                >Price:
+                <input
+                  type="number"
+                  class="hero__price-input"
+                  autocomplete="off"
+                  required />
+              </label>
+              <input type="hidden" class="itemId" />
+              <button type="submit" class="btn editBtn">Add Item</button>
+            </form>
+            <ol class="hero__form-list"></ol>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2 class="text">Total Price: 0 $</h2>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
